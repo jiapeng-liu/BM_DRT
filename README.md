@@ -8,6 +8,9 @@ This repository contains an implementation of the source code used for the paper
 
 Herein, we present a fully automated Bayesian nonparametric framework using a Bayesian mixture model to recover the distribution of relaxation times (DRT) from the electrochemical impedance spectroscopy (EIS) data. Our approach automatically determines a finite number of relaxation processes and their parameters directly from experimental data, yielding parsimonious representations that naturally suppress artifacts. The method performs unsupervised deconvolution while providing rigorous uncertainty quantification for the DRT itself and its underlying parameters through Markov Chain Monte Carlo sampling.
 
+![GraphModel diagram](resources/BM_DRT illustration.jpg)
+<div align='center'><strong>Schematic illustration of the BM DRT method.</strong></div>
+
 ## Citation
 
 ```
